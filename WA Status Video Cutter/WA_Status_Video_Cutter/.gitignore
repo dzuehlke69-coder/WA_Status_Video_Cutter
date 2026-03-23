@@ -1,0 +1,25 @@
+# Android Studio / IntelliJ Dateien
+*.iml
+.gradle
+/local.properties
+/.idea/caches
+/.idea/libraries
+/.idea/modules.xml
+/.idea/workspace.xml
+/.idea/navEditor.xml
+/.idea/assetWizardSettings.xml
+.DS_Store
+/build
+/captures
+.externalNativeBuild
+.cxx
+local.properties
+
+# Nutzer-spezifische Einstellungen (WICHTIG!)
+signing.properties
+/keystore/
+*.jks
+*.keystore
+
+# Build-Ordner der Module
+*/build/

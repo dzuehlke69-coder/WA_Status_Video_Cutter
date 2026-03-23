@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:padding="20dp">
+
+    <TextView
+        android:id="@+id/textViewStatus"
+        android:layout_width="wrap_content"
+        android:layout_height="83dp"
+        android:layout_gravity="center"
+
+        android:fontFamily="monospace"
+        android:shadowColor="#004400"
+        android:shadowDx="5"
+        android:shadowDy="5"
+        android:shadowRadius="8"
+        android:text="auswählen, schneiden, teilen"
+        android:textColor="#00FF00"
+        android:textSize="18sp"
+
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/btnStart"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="1. Video wählen" />
+
+    <Button
+        android:id="@+id/btnCutOnly"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="2. Nur Schneiden" />
+
+    <Button
+        android:id="@+id/btnShareOnly"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="3. An WhatsApp senden" />
+
+    <Button
+        android:id="@+id/btnClear"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:backgroundTint="#D32F2F"
+        android:text="Ordner leeren / Speicher frei" />
+    <Button
+        android:id="@+id/btnDonation"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="5. Spende (BTC)"
+        android:layout_marginTop="20dp"
+        android:backgroundTint="#FF9900"
+        android:textColor="#FFFFFF"
+        android:textStyle="bold" />
+
+    <ProgressBar
+        android:id="@+id/progressBar"
+        style="?android:attr/progressBarStyleHorizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:indeterminate="true"
+        android:visibility="gone" />
+
+
+    <TextView
+        android:id="@+id/tvVersionFooter"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="end"
+        android:text="v1.0.0"
+        android:textColor="#4400FF00"
+        android:textSize="10sp"
+        android:padding="4dp"
+        android:fontFamily="monospace" />
+</LinearLayout>

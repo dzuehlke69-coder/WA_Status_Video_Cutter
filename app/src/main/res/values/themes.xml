@@ -1,0 +1,12 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <style name="Theme.WA_Status_Video_Cutter" parent="Theme.MaterialComponents.DayNight.DarkActionBar">
+        <item name="colorPrimary">#214321</item> <item name="colorPrimaryVariant">#1A351A</item>
+        <item name="colorOnPrimary">@color/white</item>
+
+        <item name="colorSecondary">#4CAF50</item>
+
+        <item name="android:statusBarColor">?attr/colorPrimaryVariant</item>
+
+        <item name="android:windowBackground">@drawable/nachtsicht_background</item>
+    </style>
+</resources>
