@@ -16,7 +16,7 @@ Du kannst die fertige App direkt hier herunterladen und installieren:
 ## ☕ Support / Spenden
 Wenn dir die App gefällt, freue ich mich über eine kleine Unterstützung in Bitcoin:
 * **Adresse:** `bc1q7zgh4x5d7295rtefall4qw0sg8dl674kvsl62r`
-* Oder nutze den QR-Code direkt in der App beim Beenden!
+* Oder nutze den QR-Code direkt in der App!
 
 ---
 *Entwickelt von dzuehlke69-coder*
