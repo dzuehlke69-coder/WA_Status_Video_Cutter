@@ -4,11 +4,11 @@ plugins {
 }
 
 android {
-    namespace = "com.example.wa_status_video_cutter"
+    namespace = "com.dzuehlke69.wa_status_video_cutter"
     compileSdk = 34
 
     defaultConfig {
-        applicationId = "com.example.wa_status_video_cutter"
+        applicationId = "com.dzuehlke69.wa_status_video_cutter"
         minSdk = 24
         targetSdk = 34
         versionCode = 200

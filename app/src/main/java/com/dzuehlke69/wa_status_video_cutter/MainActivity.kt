@@ -1,4 +1,4 @@
-package com.example.wa_status_video_cutter
+package com.dzuehlke69.wa_status_video_cutter
 
 import android.content.ClipData
 import android.content.ClipboardManager
