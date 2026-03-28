@@ -13,7 +13,7 @@ dependencyResolutionManagement {
         mavenCentral()
         // JitPack als Backup, falls FFmpeg oder andere Tools dort gesucht werden
         maven { url = uri("https://jitpack.io") }
-        maven { url = uri("https://artifactory.appodeal.com/appodeal-public/") }
+      //  maven { url = uri("https://artifactory.appodeal.com/appodeal-public/") }
     }
 }
 
