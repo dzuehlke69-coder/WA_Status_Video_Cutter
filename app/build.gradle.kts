@@ -11,8 +11,8 @@ android {
         applicationId = "com.dzuehlke69.wa_status_video_cutter"
         minSdk = 24
         targetSdk = 34
-        versionCode = 201
-        versionName = "2.0.1"
+        versionCode = 202
+        versionName = "2.0.2"
 
         testInstrumentationRunner = "androidx.test.runner.AndroidJUnitRunner"
 
@@ -48,7 +48,7 @@ dependencies {
     implementation("com.google.android.material:material:1.11.0")
     implementation("androidx.constraintlayout:constraintlayout:2.1.4")
     implementation("androidx.activity:activity-ktx:1.8.2")
-    implementation("com.arthenica:ffmpeg-kit-full-gpl:6.0-2.LTS")
+    implementation("com.arthenica:ffmpeg-kit-full:4.5.LTS")
 
     testImplementation("junit:junit:4.13.2")
     androidTestImplementation("androidx.test.ext:junit:1.1.5")

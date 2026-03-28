@@ -10,10 +10,8 @@ dependencyResolutionManagement {
     repositoriesMode.set(RepositoriesMode.FAIL_ON_PROJECT_REPOS)
     repositories {
         google()
-        mavenCentral()
-        // JitPack als Backup, falls FFmpeg oder andere Tools dort gesucht werden
+        mavenCentral() // <--- Muss unbedingt VOR JitPack stehen
         maven { url = uri("https://jitpack.io") }
-      //  maven { url = uri("https://artifactory.appodeal.com/appodeal-public/") }
     }
 }
 
